@@ -1,0 +1,25 @@
+body{
+    padding: 25px;
+}
+
+#list-tasks{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 1.2rem;
+}
+
+#button-cad{
+    margin: 2rem;
+}
+
+form{
+    max-width: 600px;
+    margin: 2rem auto;
+
+    .buttons{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1 class="nes-text">Ticket Killer <i class="nes-icon close is-large"></i></h1>
+    <a class="nes-btn is-primary" href="cadastro.html" id="button-cad">Cadastrar novo Ticket</a>
+
+    <section id="list-tasks">
+        <div class="nes-container with-title is-centered">
+            <p class="title">Tickets abertos</p>
+            <p>Aqui será visivel os tickets para serem "killados"</p>
+            <div class="nes-container is-rounded">
+                <p>Titulo do ticket</p>
+                <p>Descrição do ticket</p>
+                <p>Ticket recem aberto</p>
+                <progress class="nes-progress is-error" value="1" max="10"></progress>
+                <button class="nes-btn is-error">Kill</button>
+            </div>
+        </div>
+    
+        <div class="nes-container with-title is-centered">
+            <p class="title">Tickets abertos</p>
+            <p>Aqui será visivel os tickets para serem "killados"</p>
+            <p>Ticket em atendimento</p>
+            <div class="nes-container is-rounded">
+                <p>Titulo do ticket</p>
+                <p>Descrição do ticket</p>
+                <progress class="nes-progress is-warning" value="5" max="10"></progress>
+                <button class="nes-btn is-error">Kill</button>
+            </div>
+        </div>
+    
+        <div class="nes-container with-title is-centered">
+            <p class="title">Tickets abertos</p>
+            <p>Aqui será visivel os tickets para serem "killados"</p>
+            <div class="nes-container is-rounded">
+                <p>Titulo do ticket</p>
+                <p>Descrição do ticket</p>
+                <p>Ticket resolvido</p>
+                <progress class="nes-progress is-success" value="10" max="10"></progress>
+                <button class="nes-btn is-error">Kill</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
