@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/cadastrar.js" defer></script>
 </head>
 <body>
     <form action="">
@@ -20,18 +21,18 @@
         </div>
 
         <div class="nes-field">
+            <label for="resp">Responsável</label>
+            <input type="text" id="resp" class="nes-input">
+        </div>
+
+        <div class="nes-field">
             <label for="desc">Descrição</label>
             <textarea id="desc" class="nes-textarea"></textarea>
         </div>
 
-        <div class="nes-field">
-            <label for="acoes">Numero de ações necessárias</label>
-            <input type="number" id="acoes" class="nes-input">
-        </div>
-
         <div class="buttons">
             <a href="index.html" class="nes-btn is-error">Cancelar</a>
-            <button class="nes-btn is-success">Salvar</button>
+            <button class="nes-btn is-success" id="btn-salvar">Salvar</button>
         </div>
     </form>
 </body>
